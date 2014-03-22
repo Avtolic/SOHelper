@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D256B3DB18DE2C9700F1DE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D256B3DA18DE2C9700F1DE3C /* Foundation.framework */; };
+		D256B3DD18DE2C9700F1DE3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D256B3DC18DE2C9700F1DE3C /* CoreGraphics.framework */; };
+		D256B3DF18DE2C9700F1DE3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D256B3DE18DE2C9700F1DE3C /* UIKit.framework */; };
+		D256B3E518DE2C9800F1DE3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D256B3E318DE2C9800F1DE3C /* InfoPlist.strings */; };
+		D256B3E718DE2C9800F1DE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D256B3E618DE2C9800F1DE3C /* main.m */; };
+		D256B3EB18DE2C9800F1DE3C /* AVTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D256B3EA18DE2C9800F1DE3C /* AVTAppDelegate.m */; };
+		D256B3EE18DE2C9800F1DE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D256B3EC18DE2C9800F1DE3C /* Main.storyboard */; };
+		D256B3F118DE2C9800F1DE3C /* AVTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D256B3F018DE2C9800F1DE3C /* AVTViewController.m */; };
+		D256B3F318DE2C9800F1DE3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D256B3F218DE2C9800F1DE3C /* Images.xcassets */; };
+		D256B3FA18DE2C9800F1DE3C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D256B3F918DE2C9800F1DE3C /* XCTest.framework */; };
+		D256B3FB18DE2C9800F1DE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D256B3DA18DE2C9700F1DE3C /* Foundation.framework */; };
+		D256B3FC18DE2C9800F1DE3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D256B3DE18DE2C9700F1DE3C /* UIKit.framework */; };
+		D256B40418DE2C9800F1DE3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D256B40218DE2C9800F1DE3C /* InfoPlist.strings */; };
+		D256B40618DE2C9800F1DE3C /* SOHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D256B40518DE2C9800F1DE3C /* SOHelperTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D256B3FD18DE2C9800F1DE3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D256B3CF18DE2C9600F1DE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D256B3D618DE2C9700F1DE3C;
+			remoteInfo = SOHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D256B3D718DE2C9700F1DE3C /* SOHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D256B3DA18DE2C9700F1DE3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D256B3DC18DE2C9700F1DE3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D256B3DE18DE2C9700F1DE3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D256B3E218DE2C9700F1DE3C /* SOHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SOHelper-Info.plist"; sourceTree = "<group>"; };
+		D256B3E418DE2C9800F1DE3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D256B3E618DE2C9800F1DE3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D256B3E818DE2C9800F1DE3C /* SOHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOHelper-Prefix.pch"; sourceTree = "<group>"; };
+		D256B3E918DE2C9800F1DE3C /* AVTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTAppDelegate.h; sourceTree = "<group>"; };
+		D256B3EA18DE2C9800F1DE3C /* AVTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTAppDelegate.m; sourceTree = "<group>"; };
+		D256B3ED18DE2C9800F1DE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D256B3EF18DE2C9800F1DE3C /* AVTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTViewController.h; sourceTree = "<group>"; };
+		D256B3F018DE2C9800F1DE3C /* AVTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTViewController.m; sourceTree = "<group>"; };
+		D256B3F218DE2C9800F1DE3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D256B3F818DE2C9800F1DE3C /* SOHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D256B3F918DE2C9800F1DE3C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D256B40118DE2C9800F1DE3C /* SOHelperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SOHelperTests-Info.plist"; sourceTree = "<group>"; };
+		D256B40318DE2C9800F1DE3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D256B40518DE2C9800F1DE3C /* SOHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOHelperTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D256B3D418DE2C9700F1DE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D256B3DD18DE2C9700F1DE3C /* CoreGraphics.framework in Frameworks */,
+				D256B3DF18DE2C9700F1DE3C /* UIKit.framework in Frameworks */,
+				D256B3DB18DE2C9700F1DE3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D256B3F518DE2C9800F1DE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D256B3FA18DE2C9800F1DE3C /* XCTest.framework in Frameworks */,
+				D256B3FC18DE2C9800F1DE3C /* UIKit.framework in Frameworks */,
+				D256B3FB18DE2C9800F1DE3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D256B3CE18DE2C9600F1DE3C = {
+			isa = PBXGroup;
+			children = (
+				D256B3E018DE2C9700F1DE3C /* SOHelper */,
+				D256B3FF18DE2C9800F1DE3C /* SOHelperTests */,
+				D256B3D918DE2C9700F1DE3C /* Frameworks */,
+				D256B3D818DE2C9700F1DE3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D256B3D818DE2C9700F1DE3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D256B3D718DE2C9700F1DE3C /* SOHelper.app */,
+				D256B3F818DE2C9800F1DE3C /* SOHelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D256B3D918DE2C9700F1DE3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D256B3DA18DE2C9700F1DE3C /* Foundation.framework */,
+				D256B3DC18DE2C9700F1DE3C /* CoreGraphics.framework */,
+				D256B3DE18DE2C9700F1DE3C /* UIKit.framework */,
+				D256B3F918DE2C9800F1DE3C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D256B3E018DE2C9700F1DE3C /* SOHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D256B3E918DE2C9800F1DE3C /* AVTAppDelegate.h */,
+				D256B3EA18DE2C9800F1DE3C /* AVTAppDelegate.m */,
+				D256B3EC18DE2C9800F1DE3C /* Main.storyboard */,
+				D256B3EF18DE2C9800F1DE3C /* AVTViewController.h */,
+				D256B3F018DE2C9800F1DE3C /* AVTViewController.m */,
+				D256B3F218DE2C9800F1DE3C /* Images.xcassets */,
+				D256B3E118DE2C9700F1DE3C /* Supporting Files */,
+			);
+			path = SOHelper;
+			sourceTree = "<group>";
+		};
+		D256B3E118DE2C9700F1DE3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D256B3E218DE2C9700F1DE3C /* SOHelper-Info.plist */,
+				D256B3E318DE2C9800F1DE3C /* InfoPlist.strings */,
+				D256B3E618DE2C9800F1DE3C /* main.m */,
+				D256B3E818DE2C9800F1DE3C /* SOHelper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D256B3FF18DE2C9800F1DE3C /* SOHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				D256B40518DE2C9800F1DE3C /* SOHelperTests.m */,
+				D256B40018DE2C9800F1DE3C /* Supporting Files */,
+			);
+			path = SOHelperTests;
+			sourceTree = "<group>";
+		};
+		D256B40018DE2C9800F1DE3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D256B40118DE2C9800F1DE3C /* SOHelperTests-Info.plist */,
+				D256B40218DE2C9800F1DE3C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D256B3D618DE2C9700F1DE3C /* SOHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D256B40918DE2C9800F1DE3C /* Build configuration list for PBXNativeTarget "SOHelper" */;
+			buildPhases = (
+				D256B3D318DE2C9700F1DE3C /* Sources */,
+				D256B3D418DE2C9700F1DE3C /* Frameworks */,
+				D256B3D518DE2C9700F1DE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOHelper;
+			productName = SOHelper;
+			productReference = D256B3D718DE2C9700F1DE3C /* SOHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D256B3F718DE2C9800F1DE3C /* SOHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D256B40C18DE2C9800F1DE3C /* Build configuration list for PBXNativeTarget "SOHelperTests" */;
+			buildPhases = (
+				D256B3F418DE2C9800F1DE3C /* Sources */,
+				D256B3F518DE2C9800F1DE3C /* Frameworks */,
+				D256B3F618DE2C9800F1DE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D256B3FE18DE2C9800F1DE3C /* PBXTargetDependency */,
+			);
+			name = SOHelperTests;
+			productName = SOHelperTests;
+			productReference = D256B3F818DE2C9800F1DE3C /* SOHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D256B3CF18DE2C9600F1DE3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AVT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Yury;
+				TargetAttributes = {
+					D256B3F718DE2C9800F1DE3C = {
+						TestTargetID = D256B3D618DE2C9700F1DE3C;
+					};
+				};
+			};
+			buildConfigurationList = D256B3D218DE2C9600F1DE3C /* Build configuration list for PBXProject "SOHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D256B3CE18DE2C9600F1DE3C;
+			productRefGroup = D256B3D818DE2C9700F1DE3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D256B3D618DE2C9700F1DE3C /* SOHelper */,
+				D256B3F718DE2C9800F1DE3C /* SOHelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D256B3D518DE2C9700F1DE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D256B3F318DE2C9800F1DE3C /* Images.xcassets in Resources */,
+				D256B3E518DE2C9800F1DE3C /* InfoPlist.strings in Resources */,
+				D256B3EE18DE2C9800F1DE3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D256B3F618DE2C9800F1DE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D256B40418DE2C9800F1DE3C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D256B3D318DE2C9700F1DE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D256B3F118DE2C9800F1DE3C /* AVTViewController.m in Sources */,
+				D256B3EB18DE2C9800F1DE3C /* AVTAppDelegate.m in Sources */,
+				D256B3E718DE2C9800F1DE3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D256B3F418DE2C9800F1DE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D256B40618DE2C9800F1DE3C /* SOHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D256B3FE18DE2C9800F1DE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D256B3D618DE2C9700F1DE3C /* SOHelper */;
+			targetProxy = D256B3FD18DE2C9800F1DE3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D256B3E318DE2C9800F1DE3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D256B3E418DE2C9800F1DE3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D256B3EC18DE2C9800F1DE3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D256B3ED18DE2C9800F1DE3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D256B40218DE2C9800F1DE3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D256B40318DE2C9800F1DE3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D256B40718DE2C9800F1DE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D256B40818DE2C9800F1DE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D256B40A18DE2C9800F1DE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOHelper/SOHelper-Prefix.pch";
+				INFOPLIST_FILE = "SOHelper/SOHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D256B40B18DE2C9800F1DE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOHelper/SOHelper-Prefix.pch";
+				INFOPLIST_FILE = "SOHelper/SOHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D256B40D18DE2C9800F1DE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SOHelper.app/SOHelper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOHelper/SOHelper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SOHelperTests/SOHelperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D256B40E18DE2C9800F1DE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SOHelper.app/SOHelper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOHelper/SOHelper-Prefix.pch";
+				INFOPLIST_FILE = "SOHelperTests/SOHelperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D256B3D218DE2C9600F1DE3C /* Build configuration list for PBXProject "SOHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D256B40718DE2C9800F1DE3C /* Debug */,
+				D256B40818DE2C9800F1DE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D256B40918DE2C9800F1DE3C /* Build configuration list for PBXNativeTarget "SOHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D256B40A18DE2C9800F1DE3C /* Debug */,
+				D256B40B18DE2C9800F1DE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D256B40C18DE2C9800F1DE3C /* Build configuration list for PBXNativeTarget "SOHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D256B40D18DE2C9800F1DE3C /* Debug */,
+				D256B40E18DE2C9800F1DE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D256B3CF18DE2C9600F1DE3C /* Project object */;
+}
