@@ -13,7 +13,6 @@
 		D256B3E518DE2C9800F1DE3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D256B3E318DE2C9800F1DE3C /* InfoPlist.strings */; };
 		D256B3E718DE2C9800F1DE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D256B3E618DE2C9800F1DE3C /* main.m */; };
 		D256B3EB18DE2C9800F1DE3C /* AVTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D256B3EA18DE2C9800F1DE3C /* AVTAppDelegate.m */; };
-		D256B3EE18DE2C9800F1DE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D256B3EC18DE2C9800F1DE3C /* Main.storyboard */; };
 		D256B3F118DE2C9800F1DE3C /* AVTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D256B3F018DE2C9800F1DE3C /* AVTViewController.m */; };
 		D256B3F318DE2C9800F1DE3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D256B3F218DE2C9800F1DE3C /* Images.xcassets */; };
 		D256B3FA18DE2C9800F1DE3C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D256B3F918DE2C9800F1DE3C /* XCTest.framework */; };
@@ -21,6 +20,7 @@
 		D256B3FC18DE2C9800F1DE3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D256B3DE18DE2C9700F1DE3C /* UIKit.framework */; };
 		D256B40418DE2C9800F1DE3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D256B40218DE2C9800F1DE3C /* InfoPlist.strings */; };
 		D256B40618DE2C9800F1DE3C /* SOHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D256B40518DE2C9800F1DE3C /* SOHelperTests.m */; };
+		D256B41118DE395700F1DE3C /* AVTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D256B41018DE395700F1DE3C /* AVTSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		D256B3E818DE2C9800F1DE3C /* SOHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOHelper-Prefix.pch"; sourceTree = "<group>"; };
 		D256B3E918DE2C9800F1DE3C /* AVTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTAppDelegate.h; sourceTree = "<group>"; };
 		D256B3EA18DE2C9800F1DE3C /* AVTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTAppDelegate.m; sourceTree = "<group>"; };
-		D256B3ED18DE2C9800F1DE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D256B3EF18DE2C9800F1DE3C /* AVTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTViewController.h; sourceTree = "<group>"; };
 		D256B3F018DE2C9800F1DE3C /* AVTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTViewController.m; sourceTree = "<group>"; };
 		D256B3F218DE2C9800F1DE3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +52,8 @@
 		D256B40118DE2C9800F1DE3C /* SOHelperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SOHelperTests-Info.plist"; sourceTree = "<group>"; };
 		D256B40318DE2C9800F1DE3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D256B40518DE2C9800F1DE3C /* SOHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOHelperTests.m; sourceTree = "<group>"; };
+		D256B40F18DE395700F1DE3C /* AVTSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTSecondViewController.h; sourceTree = "<group>"; };
+		D256B41018DE395700F1DE3C /* AVTSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +115,11 @@
 			children = (
 				D256B3E918DE2C9800F1DE3C /* AVTAppDelegate.h */,
 				D256B3EA18DE2C9800F1DE3C /* AVTAppDelegate.m */,
-				D256B3EC18DE2C9800F1DE3C /* Main.storyboard */,
 				D256B3EF18DE2C9800F1DE3C /* AVTViewController.h */,
 				D256B3F018DE2C9800F1DE3C /* AVTViewController.m */,
 				D256B3F218DE2C9800F1DE3C /* Images.xcassets */,
+				D256B40F18DE395700F1DE3C /* AVTSecondViewController.h */,
+				D256B41018DE395700F1DE3C /* AVTSecondViewController.m */,
 				D256B3E118DE2C9700F1DE3C /* Supporting Files */,
 			);
 			path = SOHelper;
@@ -231,7 +233,6 @@
 			files = (
 				D256B3F318DE2C9800F1DE3C /* Images.xcassets in Resources */,
 				D256B3E518DE2C9800F1DE3C /* InfoPlist.strings in Resources */,
-				D256B3EE18DE2C9800F1DE3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +253,7 @@
 			files = (
 				D256B3F118DE2C9800F1DE3C /* AVTViewController.m in Sources */,
 				D256B3EB18DE2C9800F1DE3C /* AVTAppDelegate.m in Sources */,
+				D256B41118DE395700F1DE3C /* AVTSecondViewController.m in Sources */,
 				D256B3E718DE2C9800F1DE3C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,14 +283,6 @@
 				D256B3E418DE2C9800F1DE3C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D256B3EC18DE2C9800F1DE3C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D256B3ED18DE2C9800F1DE3C /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		D256B40218DE2C9800F1DE3C /* InfoPlist.strings */ = {

@@ -7,12 +7,20 @@
 //
 
 #import "AVTAppDelegate.h"
+#import "AVTViewController.h"
 
 @implementation AVTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [ [ UIWindow alloc ] initWithFrame:[ [ UIScreen mainScreen ] bounds ] ];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+
+    AVTViewController *firstVC = [AVTViewController new];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:firstVC];
+    self.window.rootViewController = navController;
+    
     return YES;
 }
 							
